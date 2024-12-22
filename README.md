@@ -1,14 +1,14 @@
 # Paragon AI
 
-Paragon AI is an innovative platform designed to generate stunning, personalized AI-driven avatars. With advanced algorithms, customizable styles, and dynamic adaptability, Paragon AI empowers creators, developers, and brands to craft unique digital identities for various applications like gaming, branding, and virtual spaces.
+Paragon AI is an innovative platform designed to generate stunning, personalized AI-driven agents. With advanced algorithms, customizable styles, and dynamic adaptability, Paragon AI empowers creators, developers, and brands to craft unique digital identities for various applications like gaming, branding, and virtual spaces.
 
 ---
 
 ## 🚀 Features
 
-- **Dynamic Avatar Generation**: Create high-quality avatars tailored to your theme and style preferences.
-- **Style Transfer**: Apply artistic styles such as pixel art, watercolor, and oil painting to avatars.
-- **Personalization**: Add unique traits like glasses, hats, or beards for a truly customized avatar.
+- **Dynamic agent Generation**: Create high-quality agents tailored to your theme and style preferences.
+- **Style Transfer**: Apply artistic styles such as pixel art, watercolor, and oil painting to agents.
+- **Personalization**: Add unique traits like glasses, hats, or beards for a truly customized agent.
 - **Scalability**: Supports a large user base with decentralized processing and modular design.
 - **Analytics**: Tracks usage trends and provides insights into creative patterns.
 
@@ -46,23 +46,23 @@ python src/main.py
 ## 📖 Usage
 Run the application: Launch the app using python src/main.py and follow the prompts to select your desired theme, style, and traits.
 
-Customize your avatar: Use Paragon AI’s features to personalize your avatar, apply artistic styles, and optimize the final design.
+Customize your agent: Use Paragon AI’s features to personalize your agent, apply artistic styles, and optimize the final design.
 
-Save and use: Your avatar will be saved to the output/avatars/ directory, ready for use in digital projects.
+Save and use: Your agent will be saved to the output/agents/ directory, ready for use in digital projects.
 
 ## 🏗 Architecture
 Paragon AI is built using a modular design for flexibility and scalability:
 
-models/: Core components for generating, styling, and personalizing avatars.
-controllers/: Logic for managing avatars and user interactions.
+models/: Core components for generating, styling, and personalizing agents.
+controllers/: Logic for managing agents and user interactions.
 services/: Utilities for rendering, storage, and optimization.
 utils/: Helper modules for preprocessing, validation, and logging.
 
 ## 📡 API Reference
-Avatar Creation
+agent Creation
 Endpoint: /create
 Method: POST
-Description: Generate a new avatar based on theme and style.
+Description: Generate a new agent based on theme and style.
 Payload:
 json
 Copy code
@@ -77,7 +77,7 @@ json
 Copy code
 {
   "status": "success",
-  "avatar_path": "output/avatars/futuristic_pixel_art.png"
+  "agent_path": "output/agents/futuristic_pixel_art.png"
 }
 
 ## 🤝 Contributing
@@ -99,10 +99,10 @@ Open a pull request, and we'll review your changes.
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## 👥 Acknowledgments
-Special thanks to the team behind Paragon AI for their dedication to advancing the future of digital avatar creation.
+Special thanks to the team behind Paragon AI for their dedication to advancing the future of digital agent creation.
 
 ## 🌐 Contact
-Have questions or suggestions? Reach out at support@paragonai.com or visit our GitHub Issues page for support.
+Have questions or suggestions? Reach out at ParagonAgents on X or visit our GitHub Issues page for support.
 
 markdown
 Copy code
@@ -114,7 +114,7 @@ Copy code
 - **Overview**: Highlights Paragon AI’s purpose and capabilities.
 - **Features**: A summary of the platform's functionalities.
 - **Installation**: Steps to set up the repository locally.
-- **Usage**: Instructions for creating avatars and saving outputs.
+- **Usage**: Instructions for creating agents and saving outputs.
 - **Architecture**: An outline of the codebase structure.
 - **API Reference**: A sample endpoint for integration.
 - **Contributing**: Guidelines for open-source contributions.
