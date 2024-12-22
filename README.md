@@ -42,21 +42,23 @@ Run the application:
 bash
 Copy code
 python src/main.py
-📖 Usage
+
+## 📖 Usage
 Run the application: Launch the app using python src/main.py and follow the prompts to select your desired theme, style, and traits.
 
 Customize your avatar: Use Paragon AI’s features to personalize your avatar, apply artistic styles, and optimize the final design.
 
 Save and use: Your avatar will be saved to the output/avatars/ directory, ready for use in digital projects.
 
-🏗 Architecture
+## 🏗 Architecture
 Paragon AI is built using a modular design for flexibility and scalability:
 
 models/: Core components for generating, styling, and personalizing avatars.
 controllers/: Logic for managing avatars and user interactions.
 services/: Utilities for rendering, storage, and optimization.
 utils/: Helper modules for preprocessing, validation, and logging.
-📡 API Reference
+
+## 📡 API Reference
 Avatar Creation
 Endpoint: /create
 Method: POST
@@ -77,7 +79,8 @@ Copy code
   "status": "success",
   "avatar_path": "output/avatars/futuristic_pixel_art.png"
 }
-🤝 Contributing
+
+## 🤝 Contributing
 We welcome contributions to improve Paragon AI! Here's how you can contribute:
 
 Fork the repository.
@@ -91,13 +94,14 @@ Copy code
 git commit -m "Add your feature"
 git push origin feature/your-feature
 Open a pull request, and we'll review your changes.
-📜 License
+
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-👥 Acknowledgments
+## 👥 Acknowledgments
 Special thanks to the team behind Paragon AI for their dedication to advancing the future of digital avatar creation.
 
-🌐 Contact
+## 🌐 Contact
 Have questions or suggestions? Reach out at support@paragonai.com or visit our GitHub Issues page for support.
 
 markdown
